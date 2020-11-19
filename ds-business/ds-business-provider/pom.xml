@@ -12,7 +12,7 @@
     <artifactId>ds-business-provider</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>ds-business-provider</name>
-    <description>Demo project for Spring Boot</description>
+    <description>业务模块</description>
 
     <properties>
         <java.version>1.8</java.version>
@@ -28,6 +28,18 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
+        </dependency>
+        <!-- 父依赖 -->
+        <dependency>
+            <groupId>com.example</groupId>
+            <artifactId>ds-business</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+        <!-- 依赖ds-business-api模块 -->
+        <dependency>
+            <groupId>com.example</groupId>
+            <artifactId>ds-business-api</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
         </dependency>
     </dependencies>
 

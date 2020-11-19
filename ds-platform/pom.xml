@@ -17,7 +17,7 @@
     <artifactId>ds-platform</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>ds-platform</name>
-    <description>Demo project for Spring Boot</description>
+    <description>ds-platform模块</description>
 
     <properties>
         <java.version>1.8</java.version>
@@ -33,6 +33,18 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
+        </dependency>
+        <!-- 父依赖-->
+        <dependency>
+            <groupId>com.example</groupId>
+            <artifactId>ds</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+        <!-- 依赖ds-common模块 -->
+        <dependency>
+            <groupId>com.example</groupId>
+            <artifactId>ds-common</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
         </dependency>
     </dependencies>
 
